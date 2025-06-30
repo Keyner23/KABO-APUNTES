@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@media (max-width: 500px) {
+    * {
+        font-family: "VT323", monospace;
+        background-color: rgb(0, 0, 0);
+    }
+    a{
+        text-decoration: none;
+        color: green;
+    }
+    h1 {
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        text-shadow: 0 10px 5px green;
+    }
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        color: white;
+        text-shadow: 0 10px 30px green;
+    }
+
+    main {
+        display: flex;
+        gap: 20%;
+        padding: 20px;
+
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 12fr;
+        grid-template-rows: 1fr 1fr 1.8fr;
+        gap: 5px;
+        justify-items: center;
+    }
+    .result{
+        margin-top: 40px;
+    }
+    input {
+        height: 50px;
+        width: 130px;
+        border-radius: 10px;
+        border: 4px solid green;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+
+    button {
+        height: 43px;
+        width: 100px;
+        color: white;
+        border: 1px solid green;
+        font-size: 29px;
+        border-radius: 10px;
+        background-color: green;
+    }
+
+    button:hover {
+        box-shadow: 0 10px 50px green;
+    }
+}
