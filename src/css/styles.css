@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-@media (max-width: 500px) {
+@media (max-width: 780px){
     * {
         font-family: "VT323", monospace;
         background-color: rgb(0, 0, 0);
