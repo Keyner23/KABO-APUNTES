@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./src/icon/domino.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>KABO ONLINE</title>
 </head>
 
@@ -18,20 +19,21 @@
         <div class="team">
             <h2>EQUIPO 1</h2>
             <input type="number">
-            <button>Sumar</button>
-            <input class="result" type="number" disabled placeholder="TOTAL">
+            <button id="sumar-1">Sumar</button>
+            <input id="result-1" class="result" type="number" disabled placeholder="TOTAL">
         </div>
         <div class="team">
             <h2>EQUIPO 2</h2>
             <input type="number">
-            <button>Sumar</button>
-            <input class="result type="number" disabled placeholder="TOTAL">
+            <button id="sumar-2">Sumar</button>
+            <input id="result-2" class="result" type="number" disabled placeholder="TOTAL">
         </div>
     </main>
 
     <footer>
         <h2>Sistema creado por <a href="https://github.com/Keyner23" target="_blank">KABO</a></h1>
     </footer>
+    <script src="./src/js/main.js"></script>
 </body>
 
 </html>
