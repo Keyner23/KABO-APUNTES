@@ -24,17 +24,13 @@
 
     main {
         display: flex;
-        gap: 25%;
-        padding: 20px;
-        width: 350px;
-
+        padding-left: 30px;
+        gap: 90px;
     }
 
     .team {
         display: grid;
-        grid-template-columns: 100%;
         grid-template-rows: 1fr 1fr 1.8fr;
-        gap: 5px;
         justify-items: center;
     }
     .result{
